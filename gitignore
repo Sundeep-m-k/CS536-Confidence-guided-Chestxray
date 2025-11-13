@@ -1,0 +1,33 @@
+# ===== DATA (large) =====
+# Ignore all images and DICOMs anywhere
+*.jpg
+*.jpeg
+*.png
+*.dcm
+
+# Ignore heavy data folders (adjust names if different)
+data/cxr/images/
+data/cxr/VinBigDataTrain_jpg/
+data/cxr/*images*/
+data/CXR/*images*/
+
+# ===== CHECKPOINTS & TRAINING OUTPUT =====
+*.pth
+*.pt
+out_*/
+
+# ===== PYTHON / BUILD ARTIFACTS =====
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.so
+*.log
+
+# ===== ENV / IDE =====
+.env
+.venv
+venv/
+env/
+.idea/
+.vscode/
